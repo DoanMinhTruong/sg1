@@ -1,0 +1,676 @@
+@charset "utf-8";
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px){
+
+
+
+	*{
+		padding: 0;
+		margin : 0;
+		max-width: 100%;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		/* position: relative; */
+		/* display: block; */
+	}
+	
+	/* smart museum */
+	.image7
+	{
+		background-image : url(image7.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 20%;
+		top : 25.4%;
+		width : 100%;
+		height : 100%;
+		cursor: pointer;
+	}
+	
+	/* smart tourism */
+	.image
+	{
+		/* display: none; */
+		background-image : url(image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 40%;
+		top : 25.4%;
+		width : 100%;
+		height : 100%;
+		cursor: pointer;
+	
+	}
+	/* smart factory */
+	.image5
+	{
+		/* display: none; */
+		background-image : url(image5.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 16%;
+		top : 45.3%;
+		width : 100%;
+		height : 100%;
+		cursor: pointer;
+	}
+	/* Center */
+	.center
+	{
+		/* display: none; */
+		background-image : url(center.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 0%;
+		top : 0%;
+		width : 100%;
+		height : 100%;
+	}
+	/* smart showroom */
+	.image1
+	{
+		/* display: none; */
+		background-image : url(image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 30%;
+		top : 17.3%;
+		width : 100%;
+		height : 100%;
+		cursor: pointer;
+	
+	}
+	/* smart facility */
+	.image4
+	{
+		/* display: none; */
+		background-image : url(image4.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 19.5%;
+		top : 65%;
+		width : 100%;
+		height : 100%;
+		cursor: pointer;
+	
+	}
+	
+	
+	/* smart real estate */
+	.image6
+	{
+		/* display: none; */
+		background-image : url(image6.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 30%;
+		top : 74%;
+		width : 100%;
+		height : 100%;
+		cursor: pointer;
+	
+	}
+	/* smart heritage */
+	.image3
+	{
+		/* display: none; */
+		background-image : url(image3.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 40.5%;
+		top : 65%;
+		width : 100%;
+		height : 100%;
+		cursor: pointer;
+	
+	}
+	/* smart zone */
+	.image2
+	{
+		/* display: none; */
+		background-image : url(image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 44.5%;
+		top : 45.3%;
+		width : 100%;
+		height : 100%;
+		cursor: pointer;
+	
+	}
+	/* Decorate zoom-out */
+	
+	@keyframes ani-cont {
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+
+
+
+	.cont{
+		animation: ani-cont 2s ease-in-out;
+	}
+	@keyframes ani-cont {
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+	/* for  */
+	@keyframes aimage {
+		from{
+			top: 46%;
+			left: 30%;
+			opacity: 0;
+		}
+		to{
+			left : 40%;
+		top : 25.4%;
+			opacity: 1;
+		}
+	}
+	.image{
+		animation: aimage 1s ease-in-out;
+	}
+
+	@keyframes aimage1 {
+		from{
+			top: 46%;
+			left: 30%;
+			opacity: 0;
+		}
+		to{
+			left : 30%;
+		top : 17.3%;
+			opacity: 1;
+		}
+	}
+	.image1{
+		animation: aimage1 1s ease-in-out;
+	}
+
+	@keyframes aimage2 {
+		from{
+			top: 46%;
+			left: 30%;
+			opacity: 0;
+		}
+		to{
+			left : 44.5%;
+		top : 45.3%;
+			opacity: 1;
+		}
+	}
+	.image2{
+		animation: aimage2 1s ease-in-out;
+	}
+
+	@keyframes aimage3 {
+		from{
+			top: 46%;
+			left: 30%;
+			opacity: 0;
+		}
+		to{
+			left : 40.5%;
+		top : 65%;
+		opacity: 1;
+		}
+	}
+	.image3{
+		animation: aimage3 1s ease-in-out;
+	}
+
+	@keyframes aimage4 {
+		from{
+			top: 46%;
+			left: 30%;
+			opacity: 0;
+		}
+		to{
+			left : 19.5%;
+		top : 65%;
+		opacity: 1;
+		}
+	}
+	.image4{
+		animation: aimage4 1s ease-in-out;
+	}
+
+	@keyframes aimage5 {
+		from{
+			top: 46%;
+			left: 30%;
+			opacity: 0;
+		}
+		to{
+			left : 16%;
+		top : 45.3%;
+		opacity: 1;
+		}
+	}
+	.image5{
+		animation: aimage5 1s ease-in-out;
+	}
+
+	@keyframes aimage6 {
+		from{
+			top: 46%;
+			left: 30%;
+			opacity: 0;
+		}
+		to{
+			left : 30%;
+		top : 74%;
+		opacity: 1;
+		}
+	}
+	.image6{
+		animation: aimage6 1s ease-in-out;
+	}
+
+	@keyframes aimage7 {
+		from{
+			top: 46%;
+			left: 30%;
+			opacity: 0;
+		}
+		to{
+			left : 20%;
+		top : 25.4%;
+		opacity: 1;
+		}
+	}
+	.image7{
+		animation: aimage7 1s ease-in-out;
+	}
+
+
+
+	/* Show frame */
+#smartshowroom, #facility, #tourism, #factory, #heritage, #museum, #realestate , #zone{
+	top : 0 ;
+	left: 0;
+	z-index: 100;
+	position: absolute;
+	opacity: 0;
+	/* height: 600px;
+	width: 600px; */
+}
+
+#pre-button{
+	position: relative;
+	top: 60px;
+	left: 10px;
+	height: 80px;
+	z-index: 200;
+	opacity: 0;
+	background-image: url(prev.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* end for */
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+	#pre-button{
+		top: 10px;
+		height: 50px;
+	}
+	.center {
+    	display: none;
+	}
+	
+	html , body{
+		overflow-x: hidden;
+	}
+	body{
+		width : 1225px;
+		height : 2185px;
+	}
+	/* museum */
+	.image7
+	{
+		/* display: none; */
+		background-image : url(res/image7.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		margin-left : 684px;
+		margin-top : 347px;
+		width : 231px;
+		height : 231px;
+	}
+	/* heritage */
+	.image3
+	{
+		/* display: none; */
+
+		background-image : url(res/image3.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		margin-left : 314px;
+		margin-top : 1116px;
+		width : 230px;
+		height : 230px;
+	}
+	/* showroom */
+	.image1
+	{
+		/* display: none; */
+		background-image : url(res/image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		margin-left : 315px;
+		margin-top : 1630px;
+		width : 231px;
+		height : 231px;
+	}
+	/* real estate */
+	.image6
+	{
+		/* display: none; */
+		background-image : url(res/image6.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		margin-left : 684px;
+		margin-top : 1886px;
+		width : 231px;
+		height : 231px;
+	}
+	/* factory */
+	.image5
+	{
+		/* display: none; */
+		background-image : url(res/image5.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		margin-left : 681px;
+		margin-top : 856px;
+		width : 231px;
+		height : 231px;
+	}
+	/* zone */
+	.image2
+	{
+		/* display: none; */
+		background-image : url(res/image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		margin-left : 317px;
+		margin-top : 601px;
+		width : 231px;
+		height : 231px;
+	}
+	/* tourism */
+	.image
+	{
+		/* display: none; */
+		background-image : url(res/image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		margin-left : 319px;
+		margin-top : 85px;
+		width : 230px;
+		height : 230px;
+	}
+
+	/* facitlity */
+	.image4
+	{
+		/* display: none; */
+		background-image : url(res/image4.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		margin-left : 682px;
+		margin-top : 1372px;
+		width : 232px;
+		height : 231px;
+	}
+
+
+
+
+	.background_2_
+	{
+		/* background-color: black; */
+		background-image : url(res/background_2_.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		margin-left : -0;
+		margin-top : -0;
+		width : 1225px;
+		height : 2185px;
+	}
+
+}
+
+/* @media only screen and (max-width: 1280px) {
+#pre-button{
+	top: 10px;
+	height: 50px;
+}
+
+	.center {
+    	background-image: url(center.png);
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	width: 100%;
+    	height: 100%;
+    	background-size: 800px;
+	}
+	
+	.showroom3d_1_ {
+    	background-image: url(showroom3d_1_.png);
+    	left: 30%;
+    	top: 8%;
+    	width: 100%;
+    	height: 100%;
+    	background-size: 250px;
+	}
+	
+	.image1 {
+    	background-image: url(image1.png);
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	left: 39.3%;
+    	top: 100px;
+    	width: 133px;
+    	height: 133px;
+    	cursor: pointer;
+    	background-size: 90px;
+	}
+	
+	.muesum3d {
+		background-image: url(muesum3d.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 8%;
+		top: 33%;
+		width: 100%;
+		height: 100%;
+		background-size: 200px;
+	}
+	
+	.image7 {
+		background-image: url(image7.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 26%;
+		top: 33%;
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+		background-size: 90px;
+	}
+	
+	.tourism3d_1_ {
+		background-image: url(tourism3d_1_.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 59%;
+		top: 33%;
+		width: 100%;
+		height: 100%;
+		background-size: 200px;
+	}
+	
+	.image {
+		background-image: url(image.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 53%;
+		top: 33%;
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+		background-size: 90px;
+	}
+	
+	.zone3d_1_ {
+		background-image: url(zone3d_1_.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 64%;
+		top: 60%;
+		width: 100%;
+		height: 100%;
+		background-size: 200px;
+	}
+	
+	.image2 {
+		background-image: url(image2.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 58%;
+		top: 59%;
+		width: 100%;
+		height: 100%;
+		background-size: 90px;
+	}
+	
+	.image6 {
+		background-image: url(image6.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 39.5%;
+		top: 94%;
+		width: 100%;
+		height: 100%;
+		background-size: 90px;
+	}
+	
+	.realestate3d_1_ {
+		background-image: url(realestate3d_1_.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 30%;
+		top: 107%;
+		width: 100%;
+		height: 100%;
+		background-size: 250px;
+	}
+	
+	.image3 {
+		background-image: url(image3.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 53%;
+		top: 83%;
+		width: 100%;
+		height: 100%;
+		background-size: 90px;
+	}
+	
+	.heritage3d_1_ {
+		background-image: url(heritage3d_1_.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 59%;
+		top: 83%;
+		width: 100%;
+		height: 100%;
+		background-size: 200px;
+	}
+
+	.factory3d_1_ {
+    	background-image: url(factory3d_1_.png);
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	left: 22px;
+    	top: 59.5%;
+    	width: 100%;
+    	height: 100%;
+    	background-size: 210px;
+	}
+	
+	.image5 {
+    	background-image: url(image5.png);
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	left: 190px;
+    	top: 59%;
+    	width: 100%;
+    	height: 100%;
+    	cursor: pointer;
+    	background-size: 90px;
+	}
+	
+	.image4 {
+		background-image: url(image4.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 26%;
+		top: 84%;
+		width: 100%;
+		height: 100%;
+		background-size: 90px;
+	}
+	
+	.facility3d_1_ {
+		background-image: url(facility3d_1_.png);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 9%;
+		top: 84%;
+		width: 100%;
+		height: 100%;
+		background-size: 200px;
+	}
+	
+} */
+
