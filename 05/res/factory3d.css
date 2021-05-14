@@ -1,0 +1,101 @@
+@charset "utf-8";
+	.image3
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 674px;
+	top : 805px;
+	width : 392px;
+	height : 393px;
+}
+.smartfactory3d
+{
+	background-image : url(smartfactory3d.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 242px;
+	top : 164px;
+	width : 758px;
+	height : 227px;
+}
+.rangdong
+{
+	background-image : url(rangdong.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 212px;
+	top : 933px;
+	width : 454px;
+	height : 103px;
+}
+.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 219px;
+	top : 497px;
+	width : 392px;
+	height : 392px;
+}
+.background_2_
+{
+	background-image : url(background_2_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : -2084px;
+	top : -1249px;
+	width : 5083px;
+	height : 4600px;
+}
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 212px;
+	top : 1109px;
+	width : 396px;
+	height : 396px;
+}
+.arico
+{
+	background-image : url(arico.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 213px;
+	top : 1550px;
+	width : 454px;
+	height : 103px;
+}
+.savipharm
+{
+	background-image : url(savipharm.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 581px;
+	top : 1242px;
+	width : 456px;
+	height : 104px;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 669px;
+	top : 1416px;
+	width : 392px;
+	height : 392px;
+}
+.ajinomoto
+{
+	background-image : url(ajinomoto.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 581px;
+	top : 628px;
+	width : 516px;
+	height : 104px;
+}

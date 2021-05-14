@@ -87,82 +87,82 @@
     .realestate3d_1_
 	{
 		background-image : url(res/realestate3d_1_.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 261px;
-		margin-top : 1886px;
-		width : 543px;
-		height : 231px;
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 327px;
+	top : 1688px;
+	width : 587px;
+	height : 212px;
 	}
 	.heritage3d_1_
 	{
 		background-image : url(res/heritage3d_1_.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 411px;
-		margin-top : 1117px;
-		width : 568px;
-		height : 230px;
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 735px;
+	top : 1354px;
+	width : 499px;
+	height : 211px;
 	}
 	.facility3d_1_
 	{
-		background-image : url(res/facility3d_2_.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 261px;
-		margin-top : 1373px;
-		width : 542px;
-		height : 227px;
+		background-image : url(res/facility3d_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 17px;
+	top : 1356px;
+	width : 495px;
+	height : 208px;
 	}
 	.factory3d_1_
 	{
 		background-image : url(res/factory3d_1_.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 260px;
-		margin-top : 856px;
-		width : 535px;
-		height : 231px;
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 18px;
+	top : 995px;
+	width : 488px;
+	height : 212px;
 	}
 	.zone3d_1_
 	{
-		background-image : url(res/zone3d_2_.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 439px;
-		margin-top : 601px;
-		width : 540px;
-		height : 231px;
+		background-image : url(res/zone3d_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 742px;
+	top : 995px;
+	width : 489px;
+	height : 211px;
 	}
 	.tourism3d_1_
 	{
 		background-image : url(res/tourism3d_1_.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 441px;
-		margin-top : 86px;
-		width : 538px;
-		height : 230px;
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 741px;
+	top : 634px;
+	width : 489px;
+	height : 212px;
 	}
 	.showroom3d_1_
 	{
-		background-image : url(res/showroom3d_2_.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 426px;
-		margin-top : 1631px;
-		width : 553px;
-		height : 230px;
+		background-image : url(res/showroom3d_1_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 328px;
+	top : 300px;
+	width : 587px;
+	height : 212px;
 	}
 	.muesum3d
 	{
-		background-image : url(res/muesum3d_1_.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 261px;
-		margin-top : 347px;
-		width : 544px;
-		height : 231px;
+		background-image : url(res/muesum3d.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 13px;
+	top : 634px;
+	width : 498px;
+	height : 213px;
 	}
     
     

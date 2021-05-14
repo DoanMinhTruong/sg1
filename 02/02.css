@@ -1,144 +1,269 @@
 @charset "utf-8";
 
-@keyframes smart {
-	from{
-		opacity: 0;
+@media only screen and (min-width: 960px) {
+	@keyframes smart {
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
 	}
-	to{
-		opacity: 1;
+	.image5
+	{
+		background-image : url(image5.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : -1961px;
+		top : -599px;
+		width : 4388px;
+		height : 2194px;
 	}
-}
-.image5
-{
-	background-image : url(image5.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : -1961px;
-	top : -599px;
-	width : 4388px;
-	height : 2194px;
-}
-.image4
-{
-	background-image : url(image4.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 389px;
-	top : 266px;
-	width : 499px;
-	height : 499px;
-	animation: smart 0.75s ease-in;	
-}
-@keyframes dulichhcmmove {
-	from{
-		left:530px;
-		top: 180px;
+	.image4
+	{
+		background-image : url(image4.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 389px;
+		top : 266px;
+		width : 499px;
+		height : 499px;
+		animation: smart 0.75s ease-in;	
 	}
-	to{
+	@keyframes dulichhcmmove {
+		from{
+			left:530px;
+			top: 180px;
+		}
+		to{
+			left : 332px;
+			top : 131px;
+		}
+	}
+	.dulichhcm
+	{
+		background-image : url(image3.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 332px;
 		top : 131px;
+		width : 254px;
+		height : 444px;
+		animation: dulichhcmmove 0.5s ease-in;
 	}
-}
-.dulichhcm
-{
-	background-image : url(image3.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 332px;
-	top : 131px;
-	width : 254px;
-	height : 444px;
-	animation: dulichhcmmove 0.5s ease-in;
-}
-
-@keyframes mientrungmove {
-	from{
-		left:285px;
-		top: 380px;
+	
+	@keyframes mientrungmove {
+		from{
+			left:285px;
+			top: 380px;
+		}
+		to{
+			left : 418px;
+			top : 576px;
+		}
 	}
-	to{
+	.mientrung
+	{
+		background-image : url(image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 418px;
 		top : 576px;
+		width : 483px;
+		height : 338px;
+		animation:mientrungmove 0.5s ease-in ;
 	}
-}
-.mientrung
-{
-	background-image : url(image1.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 418px;
-	top : 576px;
-	width : 483px;
-	height : 338px;
-	animation:mientrungmove 0.5s ease-in ;
-}
-@keyframes vungtaumove {
-	from{
-		left:255px;
-		top: 335px;
+	@keyframes vungtaumove {
+		from{
+			left:255px;
+			top: 335px;
+		}
+		to{
+			left : 124px;
+			top : 538px;
+		}
 	}
-	to{
+	.vungtau
+	{
+		background-image : url(image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 124px;
 		top : 538px;
+		width : 518px;
+		height : 285px;
+		animation: vungtaumove 0.5s ease-in ;
+	
 	}
-}
-.vungtau
-{
-	background-image : url(image2.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 124px;
-	top : 538px;
-	width : 518px;
-	height : 285px;
-	animation: vungtaumove 0.5s ease-in ;
-
-}
-
-
-@keyframes bitexcomove {
-	from{
-		left:530px;
-		top: 385px;
+	
+	
+	@keyframes bitexcomove {
+		from{
+			left:530px;
+			top: 385px;
+		}
+		to{
+			left : 526px;
+			top : 181px;
+		}
 	}
-	to{
+	.bitexco
+	{
+		background-image : url(image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 526px;
 		top : 181px;
+		width : 513px;
+		height : 242px;
+		animation: bitexcomove 0.5s ease-in ;
+	
 	}
-}
-.bitexco
-{
-	background-image : url(image.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 526px;
-	top : 181px;
-	width : 513px;
-	height : 242px;
-	animation: bitexcomove 0.5s ease-in ;
-
-}
-
-
-
-@keyframes taybacmove {
-	from{
-		left:530px;
-		top: 380px;
+	
+	
+	
+	@keyframes taybacmove {
+		from{
+			left:530px;
+			top: 380px;
+		}
+		to{
+			left : 726px;
+			top : 333px;
+		}
 	}
-	to{
+	.taybac
+	{
+		background-image : url(taybac_1_.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 726px;
 		top : 333px;
+		width : 426px;
+		height : 325px;
+		animation: taybacmove 0.5s ease-in;
 	}
+	
 }
-.taybac
-{
-	background-image : url(taybac_1_.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 726px;
-	top : 333px;
-	width : 426px;
-	height : 325px;
-	animation: taybacmove 0.5s ease-in;
+@media only screen and (max-width: 960px){
+	.smarttourism
+	{
+		background-image : url(res/smarttourism.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 267px;
+		top : 164px;
+		width : 708px;
+		height : 227px;
+	}
+	.vungtau
+	{
+		background-image : url(res/vungtau.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 213px;
+		top : 1486px;
+		width : 449px;
+		height : 104px;
+	}
+	.mientrung
+	{
+		background-image : url(res/mientrung.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 577px;
+		top : 1792px;
+		width : 475px;
+		height : 104px;
+	}
+	.bitexco2
+	{
+		background-image : url(res/image4.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 217px;
+		top : 439px;
+		width : 390px;
+		height : 392px;
+	}
+	.taybac
+	{
+		background-image : url(res/taybac.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 213px;
+		top : 873px;
+		width : 449px;
+		height : 104px;
+	}
+	.bitexco
+	{
+		background-image : url(res/bitexco.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 577px;
+		top : 570px;
+		width : 451px;
+		height : 104px;
+	}
+	.sdl
+	{
+		background-image : url(res/sdl.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 577px;
+		top : 1180px;
+		width : 452px;
+		height : 105px;
+	}
+	.mientrung2
+	{
+		background-image : url(res/image3.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 215px;
+		top : 1658px;
+		width : 390px;
+		height : 392px;
+	}
+	.taybac2
+	{
+		background-image : url(res/image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 670px;
+		top : 744px;
+		width : 390px;
+		height : 392px;
+	}
+	.background_2_
+	{
+		background-image : url(res/background_2_.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 0px;
+		top : 0px;
+		width : 1225px;
+		height : 2185px;
+	}
+	.vungtau2
+	{
+		background-image : url(res/image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 666px;
+		top : 1353px;
+		width : 389px;
+		height : 391px;
+	}
+	.sdl2
+	{
+		background-image : url(res/image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 213px;
+		top : 1050px;
+		width : 392px;
+		height : 393px;
+	}
 }

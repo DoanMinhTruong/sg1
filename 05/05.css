@@ -1,127 +1,233 @@
 @charset "utf-8";
+@media only screen and (min-width: 960px){
+
 	.image5
-{
-	background-image : url(image5.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : -610px;
-	top : -90px;
-	width : 2393px;
-	height : 1345px;
-}
-@keyframes smart {
-	from{
-		opacity: 0;
+	{
+		background-image : url(image5.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : -610px;
+		top : -90px;
+		width : 2393px;
+		height : 1345px;
 	}
-	to{
-		opacity: 1;
+	@keyframes smart {
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
+		
 	}
-	
-}
-.image4
-{
-	background-image : url(image4.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 398px;
-	top : 276px;
-	width : 499px;
-	height : 499px;
-	animation: smart 0.75s ease-in;
-}
+	.image4
+	{
+		background-image : url(image4.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 398px;
+		top : 276px;
+		width : 499px;
+		height : 499px;
+		animation: smart 0.75s ease-in;
+	}
 
 
 
-@keyframes ajonomoto {
-	from{
-		left : 538px;
-		top : 415px;
+	@keyframes ajonomoto {
+		from{
+			left : 538px;
+			top : 415px;
+		}
+		to{
+			left : 538px;
+			top : 176px;
+		}
+		
 	}
-	to{
+	.ajonomoto
+	{
+		background-image : url(image3.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 538px;
 		top : 176px;
-	}
-	
-}
-.ajonomoto
-{
-	background-image : url(image3.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 538px;
-	top : 176px;
-	width : 558px;
-	height : 243px;
-	animation: ajonomoto 0.5s ease-in;
+		width : 558px;
+		height : 243px;
+		animation: ajonomoto 0.5s ease-in;
 
-}
-
-@keyframes rangdong {
-	from{
-		left : 538px;
-		top : 410px;
 	}
-	to{
+
+	@keyframes rangdong {
+		from{
+			left : 538px;
+			top : 410px;
+		}
+		to{
+			left : 753px;
+			top : 408px;
+		}
+		
+	}
+	.rangdong
+	{
+		background-image : url(image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 753px;
 		top : 408px;
-	}
-	
-}
-.rangdong
-{
-	background-image : url(image1.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 753px;
-	top : 408px;
-	width : 265px;
-	height : 397px;
-	animation: rangdong 0.5s ease-in;
+		width : 265px;
+		height : 397px;
+		animation: rangdong 0.5s ease-in;
 
-}
-
-@keyframes arico {
-	from{
-		left : 238px;
-		top: 418px;
 	}
-	to{
+
+	@keyframes arico {
+		from{
+			left : 238px;
+			top: 418px;
+		}
+		to{
+			left : 238px;
+			top : 641px;
+		}
+		
+	}
+	.arico
+	{
+		background-image : url(image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 238px;
 		top : 641px;
-	}
-	
-}
-.arico
-{
-	background-image : url(image2.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 238px;
-	top : 641px;
-	width : 546px;
-	height : 243px;
-	animation: arico 0.5s ease-in;
+		width : 546px;
+		height : 243px;
+		animation: arico 0.5s ease-in;
 
-}
-@keyframes savi {
-	from{
-		left : 490px;
-		top : 228px;
 	}
-	to{
+	@keyframes savi {
+		from{
+			left : 490px;
+			top : 228px;
+		}
+		to{
+			left : 280px;
+			top : 228px;
+		}
+		
+	}
+	.savi
+	{
+		background-image : url(image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 280px;
 		top : 228px;
+		width : 287px;
+		height : 430px;
+		animation: savi 0.5s ease-in;
+	}
+}
+@media only screen and (max-width: 960px){
+	.image3
+	{
+		background-image : url(res/image3.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 674px;
+		top : 805px;
+		width : 392px;
+		height : 393px;
+	}
+	.smartfactory3d
+	{
+		background-image : url(res/smartfactory3d.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 242px;
+		top : 164px;
+		width : 758px;
+		height : 227px;
+	}
+	.rangdong
+	{
+		background-image : url(res/rangdong.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 212px;
+		top : 933px;
+		width : 454px;
+		height : 103px;
+	}
+	.image2
+	{
+		background-image : url(res/image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 219px;
+		top : 497px;
+		width : 392px;
+		height : 392px;
+	}
+	.background_2_
+	{
+		background-image : url(res/background_2_.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : -0;
+		top : -0;
+		width : 1225px;
+		height : 2185px;
+	}
+	.image1
+	{
+		background-image : url(res/image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 212px;
+		top : 1109px;
+		width : 396px;
+		height : 396px;
+	}
+	.arico
+	{
+		background-image : url(res/arico.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 213px;
+		top : 1550px;
+		width : 454px;
+		height : 103px;
+	}
+	.savipharm
+	{
+		background-image : url(res/savipharm.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 581px;
+		top : 1242px;
+		width : 456px;
+		height : 104px;
+	}
+	.image
+	{
+		background-image : url(res/image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 669px;
+		top : 1416px;
+		width : 392px;
+		height : 392px;
+	}
+	.ajinomoto
+	{
+		background-image : url(res/ajinomoto.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 581px;
+		top : 628px;
+		width : 516px;
+		height : 104px;
 	}
 	
-}
-.savi
-{
-	background-image : url(image.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 280px;
-	top : 228px;
-	width : 287px;
-	height : 430px;
-	animation: savi 0.5s ease-in;
 }

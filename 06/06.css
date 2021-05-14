@@ -1,126 +1,232 @@
 @charset "utf-8";
+@media only screen and (min-width: 960px){
+
 	.image5
-{
-	background-image : url(image5.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : -415px;
-	top : -109px;
-	width : 2086px;
-	height : 1173px;
-}
-@keyframes smart {
-	from{
-		opacity: 0;
+	{
+		background-image : url(image5.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : -415px;
+		top : -109px;
+		width : 2086px;
+		height : 1173px;
 	}
-	to{
-		opacity: 1;
+	@keyframes smart {
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
 	}
-}
-.image4
-{
-	background-image : url(image4.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 367px;
-	top : 286px;
-	width : 499px;
-	height : 499px;
-	animation : smart 0.75s ease-in;
-}
+	.image4
+	{
+		background-image : url(image4.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 367px;
+		top : 286px;
+		width : 499px;
+		height : 499px;
+		animation : smart 0.75s ease-in;
+	}
 
 
-@keyframes dhqghn {
-	from{
-		left : 208px;
-		top : 410px;
+	@keyframes dhqghn {
+		from{
+			left : 208px;
+			top : 410px;
+		}
+		to{
+			left : 208px;
+			top : 642px;
+		}
 	}
-	to{
+	.dhqghn
+	{
+		background-image : url(image3.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 208px;
 		top : 642px;
+		width : 540px;
+		height : 243px;
+		animation: dhqghn 0.5s ease-in;
 	}
-}
-.dhqghn
-{
-	background-image : url(image3.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 208px;
-	top : 642px;
-	width : 540px;
-	height : 243px;
-	animation: dhqghn 0.5s ease-in;
-}
 
 
 
-@keyframes hitech {
-	from{
-		left : 505px;
-		top : 413px;
+	@keyframes hitech {
+		from{
+			left : 505px;
+			top : 413px;
+		}
+		to{
+			left : 732px;
+			top : 413px;
+		}
 	}
-	to{
+	.hitech
+	{
+		background-image : url(image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 732px;
 		top : 413px;
+		width : 285px;
+		height : 406px;
+		animation: hitech 0.5s ease-in;
+
 	}
-}
-.hitech
-{
-	background-image : url(image1.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 732px;
-	top : 413px;
-	width : 285px;
-	height : 406px;
-	animation: hitech 0.5s ease-in;
-
-}
 
 
-@keyframes tdt {
-	from{
-		left : 461px;
-		top : 242px;
+	@keyframes tdt {
+		from{
+			left : 461px;
+			top : 242px;
+		}
+		to{
+			left : 240px;
+			top : 242px;
+		}
 	}
-	to{
+	.tdt
+	{
+		background-image : url(image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 240px;
 		top : 242px;
+		width : 290px;
+		height : 415px;
+		animation: tdt 0.5s ease-in;
+
 	}
-}
-.tdt
-{
-	background-image : url(image2.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 240px;
-	top : 242px;
-	width : 290px;
-	height : 415px;
-	animation: tdt 0.5s ease-in;
-
-}
 
 
 
-@keyframes pvu {
-	from{
-		left : 505px;
-		top : 415px;
+	@keyframes pvu {
+		from{
+			left : 505px;
+			top : 415px;
+		}
+		to{
+			left : 505px;
+			top : 190px;
+		}
 	}
-	to{
+	.pvu
+	{
+		background-image : url(image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 505px;
 		top : 190px;
+		width : 535px;
+		height : 243px;
+		animation: pvu 0.5s ease-in;
 	}
 }
-.pvu
-{
-	background-image : url(image.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 505px;
-	top : 190px;
-	width : 535px;
-	height : 243px;
-	animation: pvu 0.5s ease-in;
+@media only screen and (max-width: 960px){
+	.smartfacility
+	{
+		background-image : url(res/smartfacility.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 217px;
+		top : 164px;
+		width : 807px;
+		height : 227px;
+	}
+	.dhqg
+	{
+		background-image : url(res/dhqg.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 581px;
+		top : 1241px;
+		width : 478px;
+		height : 105px;
+	}
+	.image3
+	{
+		background-image : url(res/image3.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 218px;
+		top : 496px;
+		width : 392px;
+		height : 394px;
+	}
+	.image2
+	{
+		background-image : url(res/image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 675px;
+		top : 803px;
+		width : 391px;
+		height : 393px;
+	}
+	.background_2_
+	{
+		background-image : url(res/background_2_.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : -0;
+		top : -0;
+		width : 1225px;
+		height : 2185px;
+	}
+	.image1
+	{
+		background-image : url(res/image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 670px;
+		top : 1415px;
+		width : 391px;
+		height : 393px;
+	}
+	.image
+	{
+		background-image : url(res/image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 214px;
+		top : 1110px;
+		width : 394px;
+		height : 396px;
+	}
+	.pvu
+	{
+		background-image : url(res/pvu.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 581px;
+		top : 627px;
+		width : 477px;
+		height : 105px;
+	}
+	.cnc
+	{
+		background-image : url(res/cnc.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 166px;
+		top : 1549px;
+		width : 501px;
+		height : 105px;
+	}
+	.tdt
+	{
+		background-image : url(res/tdt.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 192px;
+		top : 932px;
+		width : 474px;
+		height : 105px;
+	}
+	
 }

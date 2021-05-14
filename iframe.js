@@ -3,36 +3,36 @@ function onpre(){
         opacity: 1,
     } ,500);    
 }
-$('.image').click(function(){
+$('.mimage').click(function(){
     $('#tourism').animate({
         opacity: 1,
     } ,500);
     onpre();
-    $('#tourism').load('starglobal/modules/popup_smart/thuvien/02/02.html');
+    $('#tourism').load('./02/02.html');
     $('#content').hide();
     // $('.background').css('background-image' , 'url(' + imageUrl + ')');
 });
 
 
 
-$('.image1').click(function(){
+$('.mimage1').click(function(){
     $('#smartshowroom').animate({
         opacity: 1,
     } ,500);
     onpre();
-    $('#smartshowroom').load('starglobal/modules/popup_smart/thuvien/01/01.html');
+    $('#smartshowroom').load('./01/01.html');
     $('#content').hide();
     // $('.background').css('background-image' , 'url(' + imageUrl + ')');
 });
 
 
 
-$('.image2').click(function(){
+$('.mimage2').click(function(){
     $('#zone').animate({
         opacity: 1,
     } ,500);
     onpre();
-    $('#zone').load('starglobal/modules/popup_smart/thuvien/08/08.html');
+    $('#zone').load('./08/08.html');
     $('#content').hide();
     // $('.background').css('background-image' , 'url(' + imageUrl + ')');
 });
@@ -40,13 +40,13 @@ $('.image2').click(function(){
 
 
 
-$('.image3').click(function(){
+$('.mimage3').click(function(){
     console.log("Ok");
     $('#heritage').animate({
         opacity: 1,
     } ,500);
     onpre();
-    $('#heritage').load('starglobal/modules/popup_smart/thuvien/04/04.html');
+    $('#heritage').load('./04/04.html');
     $('#content').hide();
     // $('.background').css('background-image' , 'url(' + imageUrl + ')');
 });
@@ -54,13 +54,13 @@ $('.image3').click(function(){
 
 
 
-$('.image4').click(function(){
+$('.mimage4').click(function(){
     console.log("Ok");
     $('#facility').animate({
         opacity: 1,
     } ,500);
     onpre();
-    $('#facility').load('starglobal/modules/popup_smart/thuvien/06/06.html');
+    $('#facility').load('./06/06.html');
     $('#content').hide();
     // $('.background').css('background-image' , 'url(' + imageUrl + ')');
 });
@@ -68,13 +68,13 @@ $('.image4').click(function(){
 
 
 
-$('.image5').click(function(){
+$('.mimage5').click(function(){
     console.log("Ok");
     $('#factory').animate({
         opacity: 1,
     } ,500);
     onpre();
-    $('#factory').load('starglobal/modules/popup_smart/thuvien/05/05.html');
+    $('#factory').load('./05/05.html');
     $('#content').hide();
     // $('.background').css('background-image' , 'url(' + imageUrl + ')');
 });
@@ -82,23 +82,23 @@ $('.image5').click(function(){
 
 
 
-$('.image6').click(function(){
+$('.mimage6').click(function(){
     console.log("Ok");
     $('#realestate').animate({
         opacity: 1,
     } ,500);
     onpre();
-    $('#realestate').load('starglobal/modules/popup_smart/thuvien/07/07.html');
+    $('#realestate').load('./07/07.html');
     $('#content').hide();
     // $('.background').css('background-image' , 'url(' + imageUrl + ')');
 });
-$('.image7').click(function(){
+$('.mimage7').click(function(){
     console.log("Ok");
     $('#museum').animate({
         opacity: 1,
     } ,500);
     onpre();
-    $('#museum').load('starglobal/modules/popup_smart/thuvien/03/03.html');
+    $('#museum').load('./03/03.html');
     $('#content').hide();
     // $('.background').css('background-image' , 'url(' + imageUrl + ')');
 });

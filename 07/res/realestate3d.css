@@ -1,0 +1,81 @@
+@charset "utf-8";
+	.scs
+{
+	background-image : url(scs.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 191px;
+	top : 1015px;
+	width : 473px;
+	height : 104px;
+}
+.verosa
+{
+	background-image : url(verosa.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 579px;
+	top : 673px;
+	width : 515px;
+	height : 103px;
+}
+.svh
+{
+	background-image : url(svh.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 579px;
+	top : 1358px;
+	width : 475px;
+	height : 104px;
+}
+.smartrealestate
+{
+	background-image : url(smartrealestate.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 217px;
+	top : 164px;
+	width : 807px;
+	height : 227px;
+}
+.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 219px;
+	top : 543px;
+	width : 390px;
+	height : 391px;
+}
+.background_2_
+{
+	background-image : url(background_2_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : -2084px;
+	top : -1249px;
+	width : 5083px;
+	height : 4600px;
+}
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 668px;
+	top : 883px;
+	width : 394px;
+	height : 395px;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 215px;
+	top : 1227px;
+	width : 391px;
+	height : 391px;
+}

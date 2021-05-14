@@ -5,25 +5,27 @@
 
 
 
-
+#pre-button{
+	position: relative;
+	top: 60px;
+	left: 10px;
+	height: 80px;
+	z-index: 200;
+	opacity: 0;
+	background-image: url(prev.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
 
 
 @media only screen and (min-width: 1200px){
 
 
 
-	*{
-		padding: 0;
-		margin : 0;
-		max-width: 100%;
-		overflow-x: hidden;
-		overflow-y: hidden;
-		/* position: relative; */
-		/* display: block; */
-	}
 	
 	/* smart museum */
-	.image7
+	.mimage7
 {
 	background-image : url(image7.png);
 	background-repeat : no-repeat;
@@ -34,7 +36,7 @@
 	height : 132px;
 	cursor: pointer;
 }
-.image
+.mimage
 {
 	background-image : url(image.png);
 	background-repeat : no-repeat;
@@ -47,7 +49,7 @@
 
 }
 
-.image5
+.mimage5
 {
 	background-image : url(image5.png);
 	background-repeat : no-repeat;
@@ -70,7 +72,7 @@
 	height : 962px;
 }
 
-.image1
+.mimage1
 {
 	background-image : url(image1.png);
 	background-repeat : no-repeat;
@@ -86,7 +88,7 @@
 
 
 
-.image4
+.mimage4
 {
 	background-image : url(image4.png);
 	background-repeat : no-repeat;
@@ -98,7 +100,7 @@
 	cursor: pointer;
 
 }
-.image6
+.mimage6
 {
 	background-image : url(image6.png);
 	background-repeat : no-repeat;
@@ -111,7 +113,7 @@
 
 }
 
-.image3
+.mimage3
 {
 	background-image : url(image3.png);
 	background-repeat : no-repeat;
@@ -123,7 +125,7 @@
 	cursor: pointer;
 
 }
-.image2
+.mimage2
 {
 	background-image : url(image2.png);
 	background-repeat : no-repeat;
@@ -171,7 +173,7 @@
 		opacity: 1;
 	}
 }
-.image{
+.mimage{
 	animation: aimage 1s ease-in-out;
 }
 
@@ -187,7 +189,7 @@
 		opacity: 1;
 	}
 }
-.image1{
+.mimage1{
 	animation: aimage1 1s ease-in-out;
 }
 
@@ -203,7 +205,7 @@
 		opacity: 1;
 	}
 }
-.image2{
+.mimage2{
 	animation: aimage2 1s ease-in-out;
 }
 
@@ -219,7 +221,7 @@
 	opacity: 1;
 	}
 }
-.image3{
+.mimage3{
 	animation: aimage3 1s ease-in-out;
 }
 
@@ -235,7 +237,7 @@
 	opacity: 1;
 	}
 }
-.image4{
+.mimage4{
 	animation: aimage4 1s ease-in-out;
 }
 
@@ -251,7 +253,7 @@
 	opacity: 1;
 	}
 }
-.image5{
+.mimage5{
 	animation: aimage5 1s ease-in-out;
 }
 
@@ -267,7 +269,7 @@
 	opacity: 1;
 	}
 }
-.image6{
+.mimage6{
 	animation: aimage6 1s ease-in-out;
 }
 
@@ -283,7 +285,7 @@
 	opacity: 1;
 	}
 }
-.image7{
+.mimage7{
 	animation: aimage7 1s ease-in-out;
 }
 
@@ -300,18 +302,7 @@
 	width: 600px; */
 }
 
-#pre-button{
-	position: relative;
-	top: 60px;
-	left: 10px;
-	height: 80px;
-	z-index: 200;
-	opacity: 0;
-	background-image: url(prev.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	cursor: pointer;
-}
+
 
 }
 
@@ -337,8 +328,10 @@
 
 @media only screen and (max-width: 960px) {
 	#pre-button{
-		top: 10px;
-		height: 50px;
+		position: absolute;
+		margin: 10px 10px;
+		height: 100px;
+		width: 100px;
 	}
 	.center {
     	display: none;
@@ -352,102 +345,102 @@
 		height : 2185px;
 	}
 	/* museum */
-	.image7
+	.mimage7
 	{
 		/* display: none; */
 		background-image : url(res/image7.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 684px;
-		margin-top : 347px;
-		width : 231px;
-		height : 231px;
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 400px;
+	top : 634px;
+	width : 213px;
+	height : 213px;
 	}
 	/* heritage */
-	.image3
+	.mimage3
 	{
 		/* display: none; */
 
 		background-image : url(res/image3.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 314px;
-		margin-top : 1116px;
-		width : 230px;
-		height : 230px;
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 630px;
+	top : 1354px;
+	width : 211px;
+	height : 211px;
 	}
 	/* showroom */
-	.image1
+	.mimage1
 	{
 		/* display: none; */
 		background-image : url(res/image1.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 315px;
-		margin-top : 1630px;
-		width : 231px;
-		height : 231px;
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 515px;
+	top : 436px;
+	width : 213px;
+	height : 213px;
 	}
 	/* real estate */
-	.image6
+	.mimage6
 	{
 		/* display: none; */
 		background-image : url(res/image6.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 684px;
-		margin-top : 1886px;
-		width : 231px;
-		height : 231px;
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 516px;
+	top : 1552px;
+	width : 211px;
+	height : 212px;
 	}
 	/* factory */
-	.image5
+	.mimage5
 	{
 		/* display: none; */
 		background-image : url(res/image5.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 681px;
-		margin-top : 856px;
-		width : 231px;
-		height : 231px;
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 401px;
+	top : 995px;
+	width : 212px;
+	height : 212px;
 	}
 	/* zone */
-	.image2
+	.mimage2
 	{
 		/* display: none; */
 		background-image : url(res/image2.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 317px;
-		margin-top : 601px;
-		width : 231px;
-		height : 231px;
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 630px;
+	top : 995px;
+	width : 212px;
+	height : 212px;
 	}
 	/* tourism */
-	.image
+	.mimage
 	{
 		/* display: none; */
 		background-image : url(res/image.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 319px;
-		margin-top : 85px;
-		width : 230px;
-		height : 230px;
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 629px;
+	top : 633px;
+	width : 212px;
+	height : 212px;
 	}
 
 	/* facitlity */
-	.image4
+	.mimage4
 	{
 		/* display: none; */
 		background-image : url(res/image4.png);
-		background-repeat : no-repeat;
-		position : absolute ;
-		margin-left : 682px;
-		margin-top : 1372px;
-		width : 232px;
-		height : 231px;
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 400px;
+	top : 1354px;
+	width : 213px;
+	height : 212px;
 	}
 
 
@@ -491,7 +484,7 @@
     	background-size: 250px;
 	}
 	
-	.image1 {
+	.mimage1 {
     	background-image: url(image1.png);
     	background-repeat: no-repeat;
     	position: absolute;
@@ -514,7 +507,7 @@
 		background-size: 200px;
 	}
 	
-	.image7 {
+	.mimage7 {
 		background-image: url(image7.png);
 		background-repeat: no-repeat;
 		position: absolute;
@@ -537,7 +530,7 @@
 		background-size: 200px;
 	}
 	
-	.image {
+	.mimage {
 		background-image: url(image.png);
 		background-repeat: no-repeat;
 		position: absolute;
@@ -560,7 +553,7 @@
 		background-size: 200px;
 	}
 	
-	.image2 {
+	.mimage2 {
 		background-image: url(image2.png);
 		background-repeat: no-repeat;
 		position: absolute;
@@ -571,7 +564,7 @@
 		background-size: 90px;
 	}
 	
-	.image6 {
+	.mimage6 {
 		background-image: url(image6.png);
 		background-repeat: no-repeat;
 		position: absolute;
@@ -593,7 +586,7 @@
 		background-size: 250px;
 	}
 	
-	.image3 {
+	.mimage3 {
 		background-image: url(image3.png);
 		background-repeat: no-repeat;
 		position: absolute;
@@ -626,7 +619,7 @@
     	background-size: 210px;
 	}
 	
-	.image5 {
+	.mimage5 {
     	background-image: url(image5.png);
     	background-repeat: no-repeat;
     	position: absolute;
@@ -638,7 +631,7 @@
     	background-size: 90px;
 	}
 	
-	.image4 {
+	.mimage4 {
 		background-image: url(image4.png);
 		background-repeat: no-repeat;
 		position: absolute;

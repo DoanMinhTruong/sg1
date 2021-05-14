@@ -1,105 +1,191 @@
 @charset "utf-8";
+@media only screen and (min-width: 960px){
 
-@keyframes smart {
-	from{
-		opacity: 0;
+	@keyframes smart {
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
 	}
-	to{
-		opacity: 1;
+
+	.image1
+	{
+		background-image : url(image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 421px;
+		top : 322px;
+		width : 451px;
+		height : 427px;
+		animation: smart 0.75s ease-in;
 	}
-}
-
-.image1
-{
-	background-image : url(image1.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 421px;
-	top : 322px;
-	width : 451px;
-	height : 427px;
-	animation: smart 0.75s ease-in;
-}
-.image2
-{
-	background-image : url(image2.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : -637px;
-	top : -212px;
-	width : 2269px;
-	height : 1276px;
-}
-
-
-@keyframes SmartFactory {
-	from{
-		left : 435px;
-		top :280px;
+	.image2
+	{
+		background-image : url(image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : -637px;
+		top : -212px;
+		width : 2269px;
+		height : 1276px;
 	}
-	to{
+
+
+	@keyframes SmartFactory {
+		from{
+			left : 435px;
+			top :280px;
+		}
+		to{
+			left : 237px;
+			top : 341px;
+		}
+	}
+	.SmartFactory
+	{
+		background-image : url(SmartFactory.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 237px;
 		top : 341px;
+		width : 348px;
+		height : 381px;
+		animation: SmartFactory 0.5s ease-in;
 	}
-}
-.SmartFactory
-{
-	background-image : url(SmartFactory.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 237px;
-	top : 341px;
-	width : 348px;
-	height : 381px;
-	animation: SmartFactory 0.5s ease-in;
-}
 
 
-@keyframes Long_Thanh {
-	from{
-		left : 537px;
-		top : 415px;
+	@keyframes Long_Thanh {
+		from{
+			left : 537px;
+			top : 415px;
+		}
+		to{
+			left : 729px;
+			top : 479px;
+		}
 	}
-	to{
+	.Long_Thanh
+	{
+		background-image : url(Long_Thanh.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 729px;
 		top : 479px;
+		width : 327px;
+		height : 315px;
+		animation: Long_Thanh 0.5s ease-in;
 	}
-}
-.Long_Thanh
-{
-	background-image : url(Long_Thanh.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 729px;
-	top : 479px;
-	width : 327px;
-	height : 315px;
-	animation: Long_Thanh 0.5s ease-in;
-}
 
 
 
 
 
 
-@keyframes longhau {
-	from{
-		left : 537px;
-		top : 415px;
+	@keyframes longhau {
+		from{
+			left : 537px;
+			top : 415px;
+		}
+		to{
+			left : 537px;
+			top : 222px;
+		}
 	}
-	to{
+	.longhau
+	{
+		background-image : url(image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 537px;
 		top : 222px;
+		width : 552px;
+		height : 243px;
+		animation: longhau 0.5s ease-in;
 	}
 }
-.longhau
-{
-	background-image : url(image.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 537px;
-	top : 222px;
-	width : 552px;
-	height : 243px;
-	animation: longhau 0.5s ease-in;
+
+@media only screen and (max-width: 960px){
+	.factory
+	{
+		background-image : url(res/factory.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 579px;
+		top : 1326px;
+		width : 475px;
+		height : 136px;
+	}
+	.longhau2
+	{
+		background-image : url(res/image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 219px;
+		top : 542px;
+		width : 391px;
+		height : 392px;
+	}
+	.background_2_
+	{
+		background-image : url(res/background_2_.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : -0;
+		top : -0;
+		width : 1225px;
+		height : 2185px;
+	}
+	.longthanh2
+	{
+		background-image : url(res/image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 671px;
+		top : 883px;
+		width : 391px;
+		height : 393px;
+	}
+	.smartzone
+	{
+		background-image : url(res/smartzone.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 317px;
+		top : 164px;
+		width : 609px;
+		height : 227px;
+	}
+	.image
+	{
+		background-image : url(res/image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 216px;
+		top : 1227px;
+		width : 391px;
+		height : 392px;
+	}
+	.longthanh
+	{
+		background-image : url(res/longthanh.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 191px;
+		top : 1015px;
+		width : 473px;
+		height : 104px;
+	}
+	.longhau
+	{
+		background-image : url(res/longhau.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 579px;
+		top : 672px;
+		width : 475px;
+		height : 104px;
+	}
+	
 }

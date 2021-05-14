@@ -1,0 +1,121 @@
+@charset "utf-8";
+	.smarttourism
+{
+	background-image : url(smarttourism.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 267px;
+	top : 164px;
+	width : 708px;
+	height : 227px;
+}
+.vungtau
+{
+	background-image : url(vungtau.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 213px;
+	top : 1486px;
+	width : 449px;
+	height : 104px;
+}
+.mientrung
+{
+	background-image : url(mientrung.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 577px;
+	top : 1792px;
+	width : 475px;
+	height : 104px;
+}
+.image4
+{
+	background-image : url(image4.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 217px;
+	top : 439px;
+	width : 390px;
+	height : 392px;
+}
+.taybac
+{
+	background-image : url(taybac.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 213px;
+	top : 873px;
+	width : 449px;
+	height : 104px;
+}
+.bitexco
+{
+	background-image : url(bitexco.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 577px;
+	top : 570px;
+	width : 451px;
+	height : 104px;
+}
+.sdl
+{
+	background-image : url(sdl.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 577px;
+	top : 1180px;
+	width : 452px;
+	height : 105px;
+}
+.image3
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 215px;
+	top : 1658px;
+	width : 390px;
+	height : 392px;
+}
+.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 670px;
+	top : 744px;
+	width : 390px;
+	height : 392px;
+}
+.background_2_
+{
+	background-image : url(background_2_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : -2084px;
+	top : -1249px;
+	width : 5083px;
+	height : 4600px;
+}
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 666px;
+	top : 1353px;
+	width : 389px;
+	height : 391px;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 213px;
+	top : 1050px;
+	width : 392px;
+	height : 393px;
+}

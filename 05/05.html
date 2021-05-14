@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Document</title>
-    <link rel="stylesheet" href="starglobal/modules/popup_smart/thuvien/05/05.css">
+    <!-- <link rel="stylesheet" href="starglobal/modules/popup_smart/thuvien/05/05.css"> -->
+    <link rel="stylesheet" href="./05/05.css">
 </head>
 <body>
     <div class="image4"></div>
+    <div class="background_2_"></div>
     <a href="../../smartfactory3d/savipharm/" target="_blank">
         <div class="savi"></div>
     </a>
@@ -21,5 +23,36 @@
     <a href="../../smartfactory3d/ajinomoto/" target="_blank">
         <div class="ajonomoto"></div>
     </a>
+
+    <div class="smartfactory3d"></div>
+
+    <div class="ajinomoto"></div>
+    <div class="savipharm"></div>
+    <a href="../../smartfactory3d/savipharm/" target="_blank">
+        <div class="image1"></div>
+    </a>
+    <a href="../../smartfactory3d/rangdong/" target="_blank">
+        <div class="image3"></div>
+    </a>
+    <a href="" target="_blank">
+        <div class="image"></div>
+    </a>
+    <a href="../../smartfactory3d/ajinomoto/" target="_blank">
+        <div class="image2"></div>
+    </a>
+
 </body>
+
+<script type="text/javascript">
+    if($(window).width() < 960)
+    {
+        x=1;
+        if(x==1)
+        {
+            $('meta[name=viewport]').remove();
+            $('head').append('<meta name="viewport" content="width=device-width, initial-scale=0.5">');
+            x=0;
+        };
+    };
+</script>
 </html>

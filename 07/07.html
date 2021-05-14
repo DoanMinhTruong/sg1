@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Document</title>
-    <link rel="stylesheet" href="starglobal/modules/popup_smart/thuvien/07/07.css">
+    <!-- <link rel="stylesheet" href="starglobal/modules/popup_smart/thuvien/07/07.css"> -->
+    <link rel="stylesheet" href="./07/07.css">
 </head>
 <body>
     <div class="image"></div>
+    <div class="background_2_"></div>
 
     <a href="" target="_blank">
         <div class="saigon"></div>
@@ -20,5 +22,34 @@
         <div class="verosa"></div>
     </a>
 
+
+
+    <div class="smartrealestate"></div>
+    <div class="verosa"></div>
+    <div class="scs"></div>
+    <div class="svh"></div>
+    <a href="" target="_blank">
+        <div class="svh2"></div>
+    </a>
+    <a href="" target="_blank">
+        <div class="scs2"></div>
+    </a>
+    <a href="../../smart-real-estate-3d/verosa-park/" target="_blank">
+        <div class="verosa2"></div>
+    </a>
 </body>
+
+
+<script type="text/javascript">
+    if($(window).width() < 960)
+    {
+        x=1;
+        if(x==1)
+        {
+            $('meta[name=viewport]').remove();
+            $('head').append('<meta name="viewport" content="width=device-width, initial-scale=0.5">');
+            x=0;
+        };
+    };
+</script>
 </html>

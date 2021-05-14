@@ -1,130 +1,238 @@
 @charset "utf-8";
+@media only screen and (min-width: 960px){
+
 	.image5
-{
-	background-image : url(image5.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : -388px;
-	top : -88px;
-	width : 1982px;
-	height : 1123px;
-}
-@keyframes smart {
-	from{
-		opacity: 0;
+	{
+		background-image : url(image5.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : -388px;
+		top : -88px;
+		width : 1982px;
+		height : 1123px;
 	}
-	to{
-		opacity: 1;
+	@keyframes smart {
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
 	}
-}
-.image4
-{
-	background-image : url(image4.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 398px;
-	top : 274px;
-	width : 499px;
-	height : 499px;
-	animation: smart 0.75s ease-in;
-}
-
-
-
-
-@keyframes kimlien {
-	from{
-		left : 540px;
-		top: 407px;
+	.image4
+	{
+		background-image : url(image4.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 398px;
+		top : 274px;
+		width : 499px;
+		height : 499px;
+		animation: smart 0.75s ease-in;
 	}
-	to{
+
+
+
+
+	@keyframes kimlien {
+		from{
+			left : 540px;
+			top: 407px;
+		}
+		to{
+			left : 540px;
+			top : 183px;
+		}
+	}
+	.kimlien
+	{
+		background-image : url(image3.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 540px;
 		top : 183px;
+		width : 530px;
+		height : 243px;
+		animation: kimlien 0.5s ease-in;
 	}
-}
-.kimlien
-{
-	background-image : url(image3.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 540px;
-	top : 183px;
-	width : 530px;
-	height : 243px;
-	animation: kimlien 0.5s ease-in;
-}
 
 
-@keyframes langtuduc {
-	from{
-		left : 237px;
-		top: 407px;
+	@keyframes langtuduc {
+		from{
+			left : 237px;
+			top: 407px;
+		}
+		to{
+			left : 237px;
+			top : 624px;
+		}
 	}
-	to{
+	.langtuduc
+	{
+		background-image : url(image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 237px;
 		top : 624px;
+		width : 543px;
+		height : 243px;
+		animation: langtuduc 0.5s ease-in;
 	}
-}
-.langtuduc
-{
-	background-image : url(image1.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 237px;
-	top : 624px;
-	width : 543px;
-	height : 243px;
-	animation: langtuduc 0.5s ease-in;
-}
 
 
 
 
-@keyframes tandinh {
-	from{
-		left : 538px;
-		top: 407px;
+	@keyframes tandinh {
+		from{
+			left : 538px;
+			top: 407px;
+		}
+		to{
+			left : 751px;
+			top : 407px;
+		}
 	}
-	to{
+	.tandinh
+	{
+		background-image : url(image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 751px;
 		top : 407px;
+		width : 265px;
+		height : 398px;
+		animation: tandinh 0.5s ease-in;
 	}
-}
-.tandinh
-{
-	background-image : url(image2.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 751px;
-	top : 407px;
-	width : 265px;
-	height : 398px;
-	animation: tandinh 0.5s ease-in;
-}
 
 
 
 
-@keyframes chualang {
-	from{
-		left : 495px;
-		top : 229px;
+	@keyframes chualang {
+		from{
+			left : 495px;
+			top : 229px;
 
+		}
+		to{
+			left : 279px;
+			top : 229px;
+		}
 	}
-	to{
+	.chualang
+	{
+		background-image : url(image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 279px;
 		top : 229px;
+		width : 291px;
+		height : 422px;
+		animation: chualang 0.5s ease-in;
+
 	}
 }
-.chualang
-{
-	background-image : url(image.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 279px;
-	top : 229px;
-	width : 291px;
-	height : 422px;
-	animation: chualang 0.5s ease-in;
 
+
+@media only screen and (max-width: 960px){
+	.chualang
+	{
+		background-image : url(res/chualang.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 579px;
+		top : 1237px;
+		width : 454px;
+		height : 105px;
+	}
+	.smartheritage
+	{
+		background-image : url(res/smartheritage.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 257px;
+		top : 164px;
+		width : 728px;
+		height : 227px;
+	}
+	.lang
+	{
+		background-image : url(res/lang.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 213px;
+		top : 1545px;
+		width : 452px;
+		height : 105px;
+	}
+	.tandinh
+	{
+		background-image : url(res/tandinh.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 213px;
+		top : 928px;
+		width : 451px;
+		height : 105px;
+	}
+	.kimlien
+	{
+		background-image : url(res/kimlien.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 579px;
+		top : 623px;
+		width : 453px;
+		height : 105px;
+	}
+	.image3
+	{
+		background-image : url(res/image3.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 216px;
+		top : 492px;
+		width : 392px;
+		height : 394px;
+	}
+	.image1
+	{
+		background-image : url(res/image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 668px;
+		top : 1411px;
+		width : 392px;
+		height : 393px;
+	}
+	.image2
+	{
+		background-image : url(res/image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 672px;
+		top : 799px;
+		width : 392px;
+		height : 393px;
+	}
+	.image
+	{
+		background-image : url(res/image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 212px;
+		top : 1106px;
+		width : 395px;
+		height : 396px;
+	}
+	.background_2_
+	{
+		background-image : url(res/background_2_.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : -0;
+		top : -0;
+		width : 1225px;
+		height : 2185px;
+	}
+	
 }

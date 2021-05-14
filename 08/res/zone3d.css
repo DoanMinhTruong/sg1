@@ -1,0 +1,81 @@
+@charset "utf-8";
+	.factory
+{
+	background-image : url(factory.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 579px;
+	top : 1326px;
+	width : 475px;
+	height : 136px;
+}
+.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 219px;
+	top : 542px;
+	width : 391px;
+	height : 392px;
+}
+.background_2_
+{
+	background-image : url(background_2_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : -2084px;
+	top : -1249px;
+	width : 5083px;
+	height : 4600px;
+}
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 671px;
+	top : 883px;
+	width : 391px;
+	height : 393px;
+}
+.smartzone
+{
+	background-image : url(smartzone.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 317px;
+	top : 164px;
+	width : 609px;
+	height : 227px;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 216px;
+	top : 1227px;
+	width : 391px;
+	height : 392px;
+}
+.longthanh
+{
+	background-image : url(longthanh.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 191px;
+	top : 1015px;
+	width : 473px;
+	height : 104px;
+}
+.longhau
+{
+	background-image : url(longhau.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 579px;
+	top : 672px;
+	width : 475px;
+	height : 104px;
+}

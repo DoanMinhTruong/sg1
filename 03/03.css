@@ -1,126 +1,233 @@
 @charset "utf-8";
+@media only screen and (min-width: 960px){
 	.image5
-{
-	background-image : url(image5.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : -871px;
-	top : -154px;
-	width : 2399px;
-	height : 1200px;
-}
-@keyframes smart {
-	from{
-		opacity: 0;
+	{
+		background-image : url(image5.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : -871px;
+		top : -154px;
+		width : 2399px;
+		height : 1200px;
 	}
-	to{
-		opacity: 1;
+	@keyframes smart {
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
 	}
-}
-.image4
-{
-	background-image : url(image4.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 398px;
-	top : 259px;
-	width : 499px;
-	height : 499px;
-	animation: smart 0.75s ease-in;
-}
-
-
-@keyframes nharongmove {
-	from{
-		left: 535px;
-		top : 391px;
+	.image4
+	{
+		background-image : url(image4.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 398px;
+		top : 259px;
+		width : 499px;
+		height : 499px;
+		animation: smart 0.75s ease-in;
 	}
-	to{
+	
+	
+	@keyframes nharongmove {
+		from{
+			left: 535px;
+			top : 391px;
+		}
+		to{
+			left : 755px;
+			top : 391px;
+		}
+	}
+	.nharong
+	{
+		background-image : url(image3.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 755px;
 		top : 391px;
+		width : 271px;
+		height : 393px;
+		animation: nharongmove 0.5s ease-in;
 	}
-}
-.nharong
-{
-	background-image : url(image3.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 755px;
-	top : 391px;
-	width : 271px;
-	height : 393px;
-	animation: nharongmove 0.5s ease-in;
-}
-
-
-
-@keyframes baotanglichsumove {
-	from{
-		left: 477px;
-		top : 215px;
+	
+	
+	
+	@keyframes baotanglichsumove {
+		from{
+			left: 477px;
+			top : 215px;
+		}
+		to{
+			left : 260px;
+			top : 215px;
+		}
 	}
-	to{
+	.baotanglichsu
+	{
+		background-image : url(image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 260px;
 		top : 215px;
+		width : 304px;
+		height : 420px;
+		animation: baotanglichsumove 0.5s ease-in;
 	}
-}
-.baotanglichsu
-{
-	background-image : url(image1.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 260px;
-	top : 215px;
-	width : 304px;
-	height : 420px;
-	animation: baotanglichsumove 0.5s ease-in;
-}
-
-
-
-@keyframes baotangtpmove {
-	from{
-		left: 204px;
-		top : 390px;
+	
+	
+	
+	@keyframes baotangtpmove {
+		from{
+			left: 204px;
+			top : 390px;
+		}
+		to{
+			left : 204px;
+			top : 608px;
+		}
 	}
-	to{
+	.baotangtp
+	{
+		background-image : url(image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 204px;
 		top : 608px;
+		width : 577px;
+		height : 243px;
+		animation: baotangtpmove 0.5s ease-in;
+	
 	}
-}
-.baotangtp
-{
-	background-image : url(image2.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 204px;
-	top : 608px;
-	width : 577px;
-	height : 243px;
-	animation: baotangtpmove 0.5s ease-in;
-
-}
-
-
-
-@keyframes phununambomove {
-	from{
-		left: 540px;
-		top : 390px;
+	
+	
+	
+	@keyframes phununambomove {
+		from{
+			left: 540px;
+			top : 390px;
+		}
+		to{
+			left : 540px;
+			top : 172px;
+		}
 	}
-	to{
+	.phununambo
+	{
+		background-image : url(image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 540px;
 		top : 172px;
+		width : 534px;
+		height : 243px;
+		animation: phununambomove 0.5s ease-in;
 	}
+	
 }
-.phununambo
-{
-	background-image : url(image.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 540px;
-	top : 172px;
-	width : 534px;
-	height : 243px;
-	animation: phununambomove 0.5s ease-in;
+
+@media only screen and (max-width: 960px){
+	.bthcm
+	{
+		background-image : url(res/bthcm.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 173px;
+		top : 933px;
+		width : 493px;
+		height : 103px;
+	}
+	.btls
+	{
+		background-image : url(res/btls.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 194px;
+		top : 1550px;
+		width : 473px;
+		height : 103px;
+	}
+	.smartmuseum
+	{
+		background-image : url(res/smartmuseum.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 242px;
+		top : 164px;
+		width : 758px;
+		height : 227px;
+	}
+	.bttp
+	{
+		background-image : url(res/bttp.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 581px;
+		top : 1242px;
+		width : 485px;
+		height : 104px;
+	}
+	.pnnb
+	{
+		background-image : url(res/pnnb.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 581px;
+		top : 627px;
+		width : 477px;
+		height : 105px;
+	}
+	.image3
+	{
+		background-image : url(res/image3.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 218px;
+		top : 497px;
+		width : 393px;
+		height : 393px;
+	}
+	.image2
+	{
+		background-image : url(res/image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 674px;
+		top : 805px;
+		width : 392px;
+		height : 393px;
+	}
+	.background_2_
+	{
+		background-image : url(res/background_2_.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 0;
+		top : 0;
+		width : 1225px;
+		height : 2185px;
+	}
+	.image1
+	{
+		background-image : url(res/image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 670px;
+		top : 1416px;
+		width : 391px;
+		height : 391px;
+	}
+	.image
+	{
+		background-image : url(res/image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 212px;
+		top : 1109px;
+		width : 396px;
+		height : 396px;
+	}
+	
 }

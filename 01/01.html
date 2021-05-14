@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Document</title>
-    <link rel="stylesheet" href="starglobal/modules/popup_smart/thuvien/01/01.css">
-    <link rel="stylesheet" href="./r01.css">
+    <!-- <link rel="stylesheet" href="starglobal/modules/popup_smart/thuvien/01/01.css"> -->
+    <link rel="stylesheet" href="./01/01.css">
 
 </head>
 <body>
     <div class="image3"></div>
+    <div class="background_2_"></div>
+
     <a href="https://matterport.starglobal3d.com/noi-that-hoa-phat/" target="_blank">
         <div class="hoaphat"></div>
     </a>
@@ -29,5 +31,49 @@
     <a href="https://matterport.starglobal3d.com/noi-that-sfhome/" target="_blank">
         <div class="sfhome"></div>
     </a>
+
+    <div class="smartshowroom"></div>
+
+    <div class="hoaphat"></div>
+    <div class="sfhome"></div>
+    <div class="cozy"></div>
+    <div class="dfurni"></div>
+    <div class="dongtam"></div>
+    <div class="azhome"></div>
+
+    <a href="https://matterport.starglobal3d.com/noi-that-hoa-phat/" target="_blank">
+        <div class="image"></div>
+    </a>
+    <a href="https://matterport.starglobal3d.com/noi-that-cozy/" target="_blank">
+        <div class="image1"></div>
+    </a>
+    <a href="https://matterport.starglobal3d.com/noi-that-dfurny/" target="_blank">
+        <div class="image2"></div>
+    </a>
+    
+    <a href="https://matterport.starglobal3d.com/noi-that-azhome/" target="_blank">
+        <div class="azhome2"></div>
+    </a>
+    <a href="../../smartshowroom3d/dongtam/" target="_blank">
+        <div class="dongtam2"></div>
+    </a>
+    <a href="https://matterport.starglobal3d.com/noi-that-sfhome/" target="_blank">
+        <div class="sfhome2"></div>
+    </a>
+
+
 </body>
+<script type="text/javascript">
+    if($(window).width() < 960)
+    {
+        x=1;
+        if(x==1)
+        {
+            $('meta[name=viewport]').remove();
+            $('head').append('<meta name="viewport" content="width=device-width, initial-scale=0.5">');
+            x=0;
+        };
+        // $('html, body').css('transform', 'scale(0.9)');
+    };
+</script>
 </html>

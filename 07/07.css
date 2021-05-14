@@ -1,102 +1,189 @@
 @charset "utf-8";
 
+@media only screen and (min-width: 960px){
 
-@keyframes verosa {
-	from{
-		left : 538px;
-		top : 427px;
+	@keyframes verosa {
+		from{
+			left : 538px;
+			top : 427px;
+		}
+		to{
+			left : 538px;
+			top : 227px;
+		}
 	}
-	to{
+	.verosa
+	{
+		background-image : url(verosa.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 538px;
 		top : 227px;
+		width : 580px;
+		height : 243px;
+		animation: verosa 0.5s ease-in;
 	}
-}
-.verosa
-{
-	background-image : url(verosa.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 538px;
-	top : 227px;
-	width : 580px;
-	height : 243px;
-	animation: verosa 0.5s ease-in;
-}
 
 
 
-@keyframes scs {
-	from{
-		left : 538px;
-		top : 427px;
+	@keyframes scs {
+		from{
+			left : 538px;
+			top : 427px;
+		}
+		to{
+			left : 730px;
+			top : 484px;
+		}
 	}
-	to{
+	.scs
+	{
+		background-image : url(scs.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 730px;
 		top : 484px;
+		width : 325px;
+		height : 315px;
+		animation: scs 0.5s ease-in;
+
 	}
-}
-.scs
-{
-	background-image : url(scs.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 730px;
-	top : 484px;
-	width : 325px;
-	height : 315px;
-	animation: scs 0.5s ease-in;
-
-}
 
 
-@keyframes saigon {
-	from{
-		left : 435px;
-		top : 290px;
+	@keyframes saigon {
+		from{
+			left : 435px;
+			top : 290px;
+		}
+		to{
+			left : 236px;
+			top : 344px;
+		}
 	}
-	to{
+	.saigon
+	{
+		background-image : url(saigon.png);
+		background-repeat : no-repeat;
+		position : absolute ;
 		left : 236px;
 		top : 344px;
-	}
-}
-.saigon
-{
-	background-image : url(saigon.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 236px;
-	top : 344px;
-	width : 350px;
-	height : 383px;
-	animation: saigon 0.5s ease-in;
+		width : 350px;
+		height : 383px;
+		animation: saigon 0.5s ease-in;
 
-}
-.image1
-{
-	background-image : url(image1.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : -1961px;
-	top : -599px;
-	width : 4388px;
-	height : 2194px;
-}
-@keyframes smart {
-	from{
-		opacity: 0;
 	}
-	to{
-		opacity: 1;
+	.image1
+	{
+		background-image : url(image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : -1961px;
+		top : -599px;
+		width : 4388px;
+		height : 2194px;
+	}
+	@keyframes smart {
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+	.image
+	{
+		background-image : url(image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 422px;
+		top : 327px;
+		width : 451px;
+		height : 427px;
+		animation: smart 0.75s ease-in;
 	}
 }
-.image
-{
-	background-image : url(image.png);
-	background-repeat : no-repeat;
-	position : absolute ;
-	left : 422px;
-	top : 327px;
-	width : 451px;
-	height : 427px;
-	animation: smart 0.75s ease-in;
+
+
+@media only screen and (max-width: 960px){
+	.scs
+	{
+		background-image : url(res/scs.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 191px;
+		top : 1015px;
+		width : 473px;
+		height : 104px;
+	}
+	.verosa
+	{
+		background-image : url(res/verosa.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 579px;
+		top : 673px;
+		width : 515px;
+		height : 103px;
+	}
+	.svh
+	{
+		background-image : url(res/svh.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 579px;
+		top : 1358px;
+		width : 475px;
+		height : 104px;
+	}
+	.smartrealestate
+	{
+		background-image : url(res/smartrealestate.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 217px;
+		top : 164px;
+		width : 807px;
+		height : 227px;
+	}
+	.verosa2
+	{
+		background-image : url(res/image2.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 219px;
+		top : 543px;
+		width : 390px;
+		height : 391px;
+	}
+	.background_2_
+	{
+		background-image : url(res/background_2_.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : -0;
+		top : -0;
+		width : 1225px;
+		height : 2185px;
+	}
+	.scs2
+	{
+		background-image : url(res/image1.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 668px;
+		top : 883px;
+		width : 394px;
+		height : 395px;
+	}
+	.svh2
+	{
+		background-image : url(res/image.png);
+		background-repeat : no-repeat;
+		position : absolute ;
+		left : 215px;
+		top : 1227px;
+		width : 391px;
+		height : 391px;
+	}
+	
 }

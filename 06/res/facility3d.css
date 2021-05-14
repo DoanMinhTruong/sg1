@@ -1,0 +1,101 @@
+@charset "utf-8";
+	.smartfacility
+{
+	background-image : url(smartfacility.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 217px;
+	top : 164px;
+	width : 807px;
+	height : 227px;
+}
+.dhqg
+{
+	background-image : url(dhqg.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 581px;
+	top : 1241px;
+	width : 478px;
+	height : 105px;
+}
+.image3
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 218px;
+	top : 496px;
+	width : 392px;
+	height : 394px;
+}
+.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 675px;
+	top : 803px;
+	width : 391px;
+	height : 393px;
+}
+.background_2_
+{
+	background-image : url(background_2_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : -2084px;
+	top : -1249px;
+	width : 5083px;
+	height : 4600px;
+}
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 670px;
+	top : 1415px;
+	width : 391px;
+	height : 393px;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 214px;
+	top : 1110px;
+	width : 394px;
+	height : 396px;
+}
+.pvu
+{
+	background-image : url(pvu.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 581px;
+	top : 627px;
+	width : 477px;
+	height : 105px;
+}
+.cnc
+{
+	background-image : url(cnc.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 166px;
+	top : 1549px;
+	width : 501px;
+	height : 105px;
+}
+.tdt
+{
+	background-image : url(tdt.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 192px;
+	top : 932px;
+	width : 474px;
+	height : 105px;
+}

@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Document</title>
-    <link rel="stylesheet" href="starglobal/modules/popup_smart/thuvien/02/02.css">
+    <!-- <link rel="stylesheet" href="starglobal/modules/popup_smart/thuvien/02/02.css"> -->
+    <link rel="stylesheet" href="./02/02.css">
+
 </head>
 <body>
     <div class="image4"></div>
+    <div class="background_2_"></div>
+
     <a href="../../smarttourism3d/bitexco/" target="_blank">
         <div class="bitexco"></div>
     </a>
@@ -24,5 +28,40 @@
     <a href="../../smarttourism3d/tay-bac/" target="_blank">
     <div class="taybac"></div>
     </a>
+    <a href="../../smarttourism3d/sdlhcm/" target="_blank">
+        <div class="sdl"></div>
+    </a>
+
+
+    <div class="smarttourism"></div>
+
+
+    <a href="../../smarttourism3d/bitexco/" target="_blank">
+        <div class="bitexco2"></div>
+    </a>
+    <a href="../../smarttourism3d/tay-bac/" target="_blank">
+        <div class="taybac2"></div>
+    </a>
+    <a href="../../smarttourism3d/sdlhcm/" target="_blank">
+        <div class="sdl2"></div>
+    </a>
+    <a href="../../smarttourism3d/vung-tau/" target="_blank">
+        <div class="vungtau2"></div>
+    </a>
+    <a href="../../" target="_blank">
+        <div class="mientrung2"></div>
+    </a>
 </body>
+<script type="text/javascript">
+    if($(window).width() < 960)
+    {
+        x=1;
+        if(x==1)
+        {
+            $('meta[name=viewport]').remove();
+            $('head').append('<meta name="viewport" content="width=device-width, initial-scale=0.5">');
+            x=0;
+        };
+    };
+</script>
 </html>
