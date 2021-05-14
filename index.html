@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <title>Document</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> -->
     <link rel="stylesheet" href="./style0.css">
     <link rel="stylesheet" href="./style1.css">
 
@@ -62,18 +63,20 @@
 <script src='./iframe.js'></script>
 <script type="text/javascript">
 $( document ).ready(function() {
-    $("body").dblclick();
-    console.log("ok");
+    $(document.body).trigger('click');
+    $(document.body).trigger('click');
+
+    console.log("OK");
 });
-    if($(window).width() < 960)
-    {
-        x=1;
-        if(x==1)
-        {
-            $('meta[name=viewport]').remove();
-            $('head').append('<meta name="viewport" content="width=device-width, initial-scale=0.5">');
-            x=0;
-        };
-    };
+    // if($(window).width() < 960)
+    // {
+    //     x=1;
+    //     if(x==1)
+    //     {
+    //         $('meta[name=viewport]').remove();
+    //         $('head').append('<meta name="viewport" content="width=device-width, initial-scale=0.5">');
+    //         x=0;
+    //     };
+    // };
 </script>
 </html>
