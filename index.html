@@ -61,6 +61,10 @@
 </body>
 <script src='./iframe.js'></script>
 <script type="text/javascript">
+$( document ).ready(function() {
+    $("body").click();
+    console.log("ok");
+});
     if($(window).width() < 960)
     {
         x=1;
