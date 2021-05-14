@@ -327,6 +327,9 @@
 
 
 @media only screen and (max-width: 960px) {
+	body{
+		position: absolute;
+	}
 	#pre-button{
 		position: absolute;
 		margin: 10px 10px;
